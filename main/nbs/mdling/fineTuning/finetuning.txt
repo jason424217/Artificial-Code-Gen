@@ -1,0 +1,1 @@
+Nathan will create an API that returns the embeddings

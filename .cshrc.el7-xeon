@@ -1,0 +1,22 @@
+#
+#  Environment configuration for EL 7.x / Xeon environment.
+#
+#  Revised:
+#    12/06/2016 lsh       - Adapt from RHEL 6.x / Xeon.
+#
+
+#
+#  Personal module configuration:
+#    - Defaults to a 64-bit environment optimized for Intel Haswell-EP
+#      Xeon processors.
+#    - ISA module must be loaded before other modules.
+#    - Available ISA's include:
+#         haswell       (breeze: s16)
+#         broadwell     (Bora: s18b, c21; Hima: c22; mistral: s19)
+#
+module load isa/broadwell
+module load intel/2017 openmpi/2.1.1/intel
+module load anaconda3/4.4.0
+module load cuda/10.0
+module load spark/2.4.4
+#conda activate tf1.13.1

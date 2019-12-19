@@ -1,0 +1,6 @@
+cufflinks==0.17.0
+jupyter==1.0.0
+metrics==0.3.3
+pandas==0.25.3
+sentencepiece==0.1.83
+sklearn==0.0

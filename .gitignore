@@ -1,0 +1,14 @@
+data/
+models/
+.ipynb_checkpoints/
+training_checkpoints/
+logs/
+checkpoint/
+fastText/
+log.txt
+LONG
+.idea
+cg-venv/
+personal_tokens.txt
+.DS_Store
+Next_repo_page_to_see.txt

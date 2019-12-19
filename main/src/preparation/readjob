@@ -1,0 +1,12 @@
+#!/bin/tcsh
+#PBS -l walltime=70:00:00
+#PBS -N Artificial_Code_Generation
+#PBS -l nodes=1:bora:ppn=20
+#PBS -l mem=20gb
+#PBS -j oe
+#PBS -m aef
+cd $PBS_O_WORKDIR
+module load anaconda3/4.4.0
+
+python3 multi_thread_repo_finder.py -v -p ./personal_tokens.txt -s 'https://api.github.com/repositories?since=24773' -d /sciclone/data10/mcanderson02/data/raw >& /sciclone/data10/mcanderson02/data/oe.$PBS_JOBID
+

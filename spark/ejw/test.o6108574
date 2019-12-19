@@ -1,0 +1,23 @@
+Warning: no access to tty (Bad file descriptor).
+Thus no job control in this shell.
+prompt: Undefined variable.
+hi04
+starting org.apache.spark.deploy.master.Master, logging to /sciclone/pscr/nacooper01/spark_logs/spark-nacooper01-org.apache.spark.deploy.master.Master-1-hi04.sciclone.wm.edu.out
+hi04
+starting org.apache.spark.deploy.worker.Worker, logging to /sciclone/pscr/nacooper01/spark_logs/spark-nacooper01-org.apache.spark.deploy.worker.Worker-1-hi04.sciclone.wm.edu.out
+Fri Sep 27 12:35:28 EDT 2019
+4G
+nodenames hi04
+nodes = 1
+ppn = 2
+6.241u 1.166s 1:00.29 12.2%	0+0k 41+310648io 0pf+0w
+Fri Sep 27 12:36:28 EDT 2019
+hi04
+localhost: Permission denied, please try again.
+localhost: Permission denied, please try again.
+localhost: Permission denied (publickey,password).
+stopping org.apache.spark.deploy.master.Master
+localhost: Permission denied, please try again.
+localhost: Permission denied, please try again.
+localhost: Permission denied (publickey,password).
+no org.apache.spark.deploy.master.Master to stop
